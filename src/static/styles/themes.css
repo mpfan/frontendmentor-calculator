@@ -1,0 +1,83 @@
+:root[data-theme="netural"] {
+  --calculator-heading-color: #ffffff;
+  --calculator-bg-color: #3b4664;
+  --display-bg-color: #181f32;
+  --display-text-color: #fefffd;
+  --theme-selector-bg-color: #252d44;
+  --theme-selector-button-color: #d13f30;
+  --theme-selector-button-hover-color: #f26f5b;
+  --theme-selector-label-color: #fefffa;
+  --pad-bg-color: #252d44;
+  --pad-button-color: #eae3db;
+  --pad-button-hover-color: #eae3db;
+  --pad-button-box-color: #aaa7a2;
+  --pad-button-text-color: #4c5260;
+  --pad-delete-button-color: #647299;
+  --pad-delete-button-hover-color: #a2b3e1;
+  --pad-delete-button-box-color: #414e6e;
+  --pad-delete-button-text-color: #feffff;
+  --pad-reset-button-color: #647299;
+  --pad-reset-button-hover-color: #a2b3e1;
+  --pad-reset-button-box-color: #414e6e;
+  --pad-reset-button-text-color: #feffff;
+  --pad-equal-button-color: #d13f30;
+  --pad-equal-button-hover-color: #f96c5b;
+  --pad-equal-button-box-color: #8f2a20;
+  --pad-equal-button-text-color: #feffff;
+}
+
+:root[data-theme="light"] {
+  --calculator-heading-color: #37372f;
+  --calculator-bg-color: #e6e6e6;
+  --display-bg-color: #eeeeee;
+  --display-text-color: #3e3e32;
+  --theme-selector-bg-color: #eeeeee;
+  --theme-selector-button-color: #d13f30;
+  --theme-selector-button-hover-color: #f26f5b;
+  --theme-selector-label-color: #2f302a;
+  --pad-bg-color: #d3cdcd;
+  --pad-button-color: #e5e4e0;
+  --pad-button-hover-color: #e5e4e0;
+  --pad-button-box-color: #a59d92;
+  --pad-button-text-color: #37372d;
+  --pad-delete-button-color: #388187;
+  --pad-delete-button-hover-color: #62b5bd;
+  --pad-delete-button-box-color: #1d5c65;
+  --pad-delete-button-text-color: #f5ffff;
+  --pad-reset-button-color: #388187;
+  --pad-reset-button-hover-color: #62b5bd;
+  --pad-reset-button-box-color: #1d5c65;
+  --pad-reset-button-text-color: #f5ffff;
+  --pad-equal-button-color: #c85401;
+  --pad-equal-button-hover-color: #ff8b38;
+  --pad-equal-button-box-color: #7e4115;
+  --pad-equal-button-text-color: #f5ffff;
+}
+
+:root[data-theme="dark"] {
+  --calculator-heading-color: #ffe563;
+  --calculator-bg-color: #17062a;
+  --display-bg-color: #1e0836;
+  --display-text-color: #ffe563;
+  --theme-selector-bg-color: #1e0836;
+  --theme-selector-button-color: #0de3db;
+  --theme-selector-button-hover-color: #97fffb;
+  --theme-selector-label-color: #ffe563;
+  --pad-bg-color: #1e0836;
+  --pad-button-color: #331b4d;
+  --pad-button-hover-color: #6b34ac;
+  --pad-button-box-color: #881f9f;
+  --pad-button-text-color: #ffe563;
+  --pad-delete-button-color: #57077a;
+  --pad-delete-button-hover-color: #8632ae;
+  --pad-delete-button-box-color: #bf15f4;
+  --pad-delete-button-text-color: #fffbff;
+  --pad-reset-button-color: #57077a;
+  --pad-reset-button-hover-color: #8632ae;
+  --pad-reset-button-box-color: #bf15f4;
+  --pad-reset-button-text-color: #fffbff;
+  --pad-equal-button-color: #00decf;
+  --pad-equal-button-hover-color: #94fff9;
+  --pad-equal-button-box-color: #88ebf0;
+  --pad-equal-button-text-color: #002e34;
+}

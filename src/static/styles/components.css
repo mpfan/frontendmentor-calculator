@@ -1,0 +1,179 @@
+.pad-button {
+  font-size: 24px;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.pad-value-button {
+  background-color: var(--pad-button-color);
+  color: var(--pad-button-text-color);
+  box-shadow: 0px 3px var(--pad-button-box-color);
+}
+
+.pad-value-button:hover {
+  background-color: var(--pad-button-hover-color);
+}
+
+.pad-delete-button {
+  background-color: var(--pad-delete-button-color);
+  color: var(--pad-delete-button-text-color);
+  box-shadow: 0px 3px var(--pad-delete-button-box-color);
+}
+
+.pad-delete-button:hover {
+  background-color: var(--pad-delete-button-hover-color);
+}
+
+.pad-reset-button {
+  background-color: var(--pad-reset-button-color);
+  color: var(--pad-reset-button-text-color);
+  box-shadow: 0px 3px var(--pad-reset-button-box-color);
+}
+
+.pad-reset-button:hover {
+  background-color: var(--pad-reset-button-hover-color);
+}
+
+.pad-equal-button {
+  background-color: var(--pad-equal-button-color);
+  color: var(--pad-equal-button-text-color);
+  box-shadow: 0px 3px var(--pad-equal-button-box-color);
+}
+
+.pad-equal-button:hover {
+  background-color: var(--pad-equal-button-hover-color);
+}
+
+.pad {
+  /* width: 400px; */
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 90px);
+  column-gap: 15px;
+  row-gap: 15px;
+  border-radius: 12px;
+  padding: 18px;
+  margin-top: 12px;
+  background-color: var(--pad-bg-color);
+}
+
+.pad-button-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pad-long-button-container {
+  grid-column: span 2;
+}
+
+.display {
+  background-color: var(--display-bg-color);
+  color: var(--display-text-color);
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 12px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.display-value {
+  margin-right: 12px;
+}
+
+.theme-selector-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.theme-selector-label {
+  color: var(--theme-selector-label-color);
+  margin-right: 12px;
+  align-self: center;
+  font-weight: bold;
+  font-size: x-small;
+}
+
+.theme-selector-slider-container {
+  display: flex;
+}
+
+.theme-selector-slider-ticks {
+  display: flex;
+  justify-content: space-between;
+  grid-column-start: 2;
+  color: var(--display-text-color);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 50px;
+}
+
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: var(--theme-selector-bg-color);
+  border-radius: 12px;
+  height: 25px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  margin-top: 5px; /* Centers thumb on the track */
+  background-color: var(--theme-selector-button-color);
+  height: 15px;
+  width: 15px;
+  border-radius: 12px;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: var(--theme-selector-button-hover-color);
+}
+
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+  background-color: var(--theme-selector-bg-color);
+  border-radius: 12px;
+  height: 25px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  border: none; /*Removes extra border that FF applies*/
+  margin-top: 5px; /* Centers thumb on the track */
+  background-color: var(--theme-selector-button-color);
+  height: 15px;
+  width: 15px;
+  border-radius: 12px;
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  background-color: var(--theme-selector-button-hover-color);
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: var(--calculator-bg-color);
+}
+
+.calculator-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0 12px 0;
+}
+
+.calculator-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--calculator-heading-color);
+  height: fit-content;
+  margin-top: auto;
+}
