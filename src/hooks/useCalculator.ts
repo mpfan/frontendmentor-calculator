@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { evaluate } from "mathjs";
 
 export default function UseCalculatorService() {
     const [value, setValue] = useState<string>("");
@@ -30,7 +31,7 @@ export default function UseCalculatorService() {
     }
 
     const equal = function (): void {
-        var result: number = eval(value);
+        var result: number = evaluate(value);
         setValue(result.toString());
         setDisplayValue(result.toString());
     }
