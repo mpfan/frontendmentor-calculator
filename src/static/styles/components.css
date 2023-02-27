@@ -16,6 +16,7 @@
 }
 
 .pad-delete-button {
+  font-size: var(--font-size);
   background-color: var(--pad-delete-button-color);
   color: var(--pad-delete-button-text-color);
   box-shadow: 0px 3px var(--pad-delete-button-box-color);
@@ -26,6 +27,7 @@
 }
 
 .pad-reset-button {
+  font-size: var(--font-size);
   background-color: var(--pad-reset-button-color);
   color: var(--pad-reset-button-text-color);
   box-shadow: 0px 3px var(--pad-reset-button-box-color);
@@ -36,6 +38,7 @@
 }
 
 .pad-equal-button {
+  font-size: var(--font-size);
   background-color: var(--pad-equal-button-color);
   color: var(--pad-equal-button-text-color);
   box-shadow: 0px 3px var(--pad-equal-button-box-color);
@@ -46,10 +49,12 @@
 }
 
 .pad {
-  /* width: 400px; */
+  --pad-button-width: 90px;
+  --font-size: 24px;
+
   height: 300px;
   display: grid;
-  grid-template-columns: repeat(4, 90px);
+  grid-template-columns: repeat(4, var(--pad-button-width));
   column-gap: 15px;
   row-gap: 15px;
   border-radius: 12px;
