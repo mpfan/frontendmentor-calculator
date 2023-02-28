@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/frontendmentor-calculator/static/css/main.5a719fab.css",
+    "main.js": "/frontendmentor-calculator/static/js/main.b0f0aebf.js",
+    "index.html": "/frontendmentor-calculator/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5a719fab.css",
+    "static/js/main.b0f0aebf.js"
+  ]
+}
